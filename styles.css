@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    height: 900px;
+}
+
+p {
+    font-size: 20px;
+    width: 33em;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 20px;
+    width: 33em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 30px;
+}
+button {
+    background-color:  #596D48;
+    margin: 30px 30px 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    color: white;
+    padding: 10px 24px;
+}
+
+.transparentTitle {
+    position: absolute;
+    width: 41.6%;
+    background:black;
+    opacity: .6;
+    color:white;
+    top: 8rem;
+    text-align: center; 
+    font-size: 40px;
+}
+
+div.mainForm {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+}
+
+.headerParagraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 30%;
+    margin: 0px 0px;
+    background-color: #e4e4e4b6;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+    margin: 0px 30px;
+}
+
+.bottom {
+    margin: 0px 0px;
+    height: 30%;
+    background-color: #e4e4e4b6;
+}
+
+form {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+input {
+    margin-right: 30px;
+}
+
+input[type="text"]:focus {
+    outline-color: #add8e6;
+}
+
+inout[type="email"]
+
+input[type="tel"]:focus {
+    outline-color: #add8e6;
+}
+
+input[type="password"] {
+    outline-color: red;
+}
+
